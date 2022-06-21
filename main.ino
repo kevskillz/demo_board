@@ -54,7 +54,7 @@ class SatelliteEarth {
 }
 
 class Constellation {
-    int LEDs[10];
+    LED LEDs[10];
     int BUTTON_PIN;
     int NUM_LEDS;
     public Constellation(int LEDPinsArr[], int numLEDs, int buttonPIN) {
